@@ -5,7 +5,7 @@
 import numpy as np
 
 
-def methodical_predict(number: int = 1) -> int:
+def random_predict(number: int = 1) -> int:
     """Рандомно угадываем число
 
     Args:
@@ -15,24 +15,20 @@ def methodical_predict(number: int = 1) -> int:
         int: Число попыток
     """
     count = 0
-    predict_number = np.random.randint(1, 101) 
 
-    while predict_number != number:
+    while True:
         count += 1
-        if predict_number > number:
-            predict_number //= 2
-        
-        elif predict_number < number:
-            predict_number += 1
-            
+        predict_number = np.random.randint(1, 101)  # предполагаемое число
+        if number == predict_number:
+            break  # выход из цикла если угадали
     return count
 
 
-def score_game(methodical_predict) -> int:
+def score_game(random_predict) -> int:
     """За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
 
     Args:
-        methodical_predict ([type]): функция угадывания
+        random_predict ([type]): функция угадывания
 
     Returns:
         int: среднее количество попыток
@@ -42,7 +38,7 @@ def score_game(methodical_predict) -> int:
     random_array = np.random.randint(1, 101, size=(1000))  # загадали список чисел
 
     for number in random_array:
-        count_ls.append(methodical_predict(number))
+        count_ls.append(random_predict(number))
 
     score = int(np.mean(count_ls))
     print(f"Ваш алгоритм угадывает число в среднем за:{score} попыток")
@@ -51,4 +47,4 @@ def score_game(methodical_predict) -> int:
 
 if __name__ == "__main__":
     # RUN
-    score_game(methodical_predict)
+    score_game(random_predict)
