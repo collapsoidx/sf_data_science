@@ -37,7 +37,7 @@ def methodical_predict(number: int = 1) -> int:
 
 
 def score_game(methodical_predict) -> int:
-    """За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
+    """За какое количество попыток в среднем за 1000 подходов угадывает наш алгоритм
 
     Args:
         methodical_predict ([type]): функция угадывания
@@ -47,7 +47,7 @@ def score_game(methodical_predict) -> int:
     """
     count_ls = []
     #np.random.seed(1)  # фиксируем сид для воспроизводимости
-    random_array = np.random.randint(1, 101, size=(10000))  # загадали список чисел
+    random_array = np.random.randint(1, 101, size=(1000))  # загадали список чисел
 
     for number in random_array:
         count_ls.append(methodical_predict(number))
