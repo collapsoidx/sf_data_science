@@ -22,7 +22,13 @@ def methodical_predict(number: int = 1) -> int:
         if predict_number > number:
             predict_number //= 2
         
-        elif predict_number < number:
+        elif predict_number < number and count < 2:
+            predict_number += 20
+            
+        elif predict_number < number and count < 3:
+            predict_number += 10
+            
+        elif predict_number < number and count > 3:
             predict_number += 1
             
     return count
@@ -45,7 +51,7 @@ def score_game(methodical_predict) -> int:
         count_ls.append(methodical_predict(number))
 
     score = int(np.mean(count_ls))
-    print(f"Ваш алгоритм угадывает число в среднем за:{score} попыток")
+    print(f"Ваш алгоритм угадывает число в среднем за: {score} попыток")
     return score
 
 
