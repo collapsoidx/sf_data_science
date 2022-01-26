@@ -6,7 +6,9 @@ import numpy as np
 
 
 def methodical_predict(number: int = 1) -> int:
-    """Рандомно угадываем число
+    """Рандомно угадываем число.  
+        Изменяем его в зависимости от того, больше оно или меньше нужного. 
+        Функция принимает загаданное число и возвращает число попыток.
 
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
@@ -45,7 +47,7 @@ def score_game(methodical_predict) -> int:
     """
     count_ls = []
     #np.random.seed(1)  # фиксируем сид для воспроизводимости
-    random_array = np.random.randint(1, 101, size=(1000))  # загадали список чисел
+    random_array = np.random.randint(1, 101, size=(10000))  # загадали список чисел
 
     for number in random_array:
         count_ls.append(methodical_predict(number))
