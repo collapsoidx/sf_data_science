@@ -3,9 +3,13 @@
 ## Table of contents
 [1. Project Description](.README.md#ProjectDescription)
 [2. Which case are we solving?](.README.md#What-case-is-solving)
+
 [3. Brief information about the data](.README.md# Brief information about the data)
+
 [four. Stages of work on the project](.README.md#Stages-of-work-on-the-project)
+
 [5. Result](.README.md#Result)
+
 [6. Conclusions](.README.md#Conclusions)
 
 ### **Description of the project**
