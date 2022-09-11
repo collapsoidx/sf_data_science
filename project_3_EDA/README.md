@@ -1,4 +1,4 @@
-# Project 0. Guess the number
+# PROJECT-3. EDA + Feature Engineering.
 
 ## Table of contents
 [one. Project Description](.README.md#ProjectDescription)
