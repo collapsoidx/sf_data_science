@@ -1,7 +1,7 @@
 # PROJECT-3. EDA + Feature Engineering.
 
 ## Table of contents
-[one. Project Description](.README.md#ProjectDescription)
+[1. Project Description](.README.md#ProjectDescription)
 [2. Which case are we solving?](.README.md#What-case-is-solving)
 [3. Brief information about the data](.README.md# Brief information about the data)
 [four. Stages of work on the project](.README.md#Stages-of-work-on-the-project)
