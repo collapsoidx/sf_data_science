@@ -1,17 +1,5 @@
 # PROJECT-3. EDA + Feature Engineering.
 
-## Table of contents
-[1. Project Description](.README.md#ProjectDescription)
-[2. Which case are we solving?](.README.md#What-case-is-solving)
-
-[3. Brief information about the data](.README.md# Brief information about the data)
-
-[four. Stages of work on the project](.README.md#Stages-of-work-on-the-project)
-
-[5. Result](.README.md#Result)
-
-[6. Conclusions](.README.md#Conclusions)
-
 ### **Description of the project**
 Creating a first model based on machine learning algorithms;
 Taking part in a competition on Kaggle;
@@ -51,7 +39,6 @@ hotels_train.csv - training dataset
 hotels_test.csv - data set for quality assessment
 submission.csv - submission file in the required format
 
-
 ### **Stages of work on the project**
 
 The task can be presented to five points:
@@ -70,7 +57,6 @@ Random Submission: 43.53361
 
 ### Conclusions:
 I have created my first machine learning case: I cleaned a rather heavily polluted dataset myself, extracted several new features from it, and prepared data for model training. You also took part in a machine learning competition and joined the world's largest community of active data scientists
-
 
 
 ***
