@@ -50,7 +50,7 @@ Feature transformation. Let's apply various transformations on features like nor
 Feature selection. We use multicollinearity analysis as a feature selection step for the model.
 
 ### Results:
-Score: 13.91970
+Score: 13.13242
 First place: 11.51996
 Random Submission: 43.53361
 
