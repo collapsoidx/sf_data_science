@@ -63,8 +63,3 @@ I have created my first machine learning case: I cleaned a rather heavily pollut
 If the information on this project seems interesting or useful to you, then I will be very grateful to you if you mark the repository and profile 
 *⭐️⭐️⭐️
 
-If you may have problems/errors with viewing of the project on GitHub please use 
-Jupiter Notebook Viewer
-https://nbviewer.org/github/collapsoidx/sf_data_science/blob/main/project_3_EDA/booking-reviews-project_full_10%20i.ipynb
-
-
