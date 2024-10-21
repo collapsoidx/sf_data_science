@@ -58,7 +58,7 @@ Random Submission: 43.53361
 ### Conclusions:
 I have created my first machine learning case: I cleaned a rather heavily polluted dataset myself, extracted several new features from it, and prepared data for model training. You also took part in a machine learning competition and joined the world's largest community of active data scientists
 
-[OPEN PROJECT] (booking-reviews-project_full_10 i.ipynb)
+[OPEN PROJECT] (sf_data_science/project_3_EDA/booking-reviews-project_full_10 i.ipynb)
 
 ***
 If the information on this project seems interesting or useful to you, then I will be very grateful to you if you mark the repository and profile 
